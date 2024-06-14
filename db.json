@@ -1,0 +1,82 @@
+{
+  "produtos": [
+    {
+      "id": "1",
+      "nome": "Café forte",
+      "preco": "5,00",
+      "imagem": "https://i.pinimg.com/564x/6d/1a/f2/6d1af2b82e7bb1e815c69a7d8110223c.jpg"
+    },
+    {
+      "id": "2",
+      "nome": "Capuccino",
+      "preco": "6,00",
+      "imagem": "https://i.pinimg.com/564x/7e/d1/22/7ed1223efd02191e69ad1dabc8193f36.jpg"
+    },
+    {
+      "id": "3",
+      "nome": "Croissant",
+      "preco": "8,50",
+      "imagem": "https://i.pinimg.com/236x/8d/ca/a3/8dcaa3da8bdd91a2de913feef0e3cf0e.jpg"
+    },
+    {
+      "id": "4",
+      "nome": "Cookies",
+      "preco": "2,50",
+      "imagem": "https://i.pinimg.com/236x/8a/60/64/8a6064e57af282aeb96456d70c6ec5ae.jpg"
+    },
+    {
+      "id": "5",
+      "nome": "Bolo",
+      "preco": "9,99",
+      "imagem": "https://i.pinimg.com/236x/3f/dd/b5/3fddb52942bd62af560039ed7fdec411.jpg"
+    },
+    {
+      "id": "6",
+      "nome": "X-Salada",
+      "preco": "14,99",
+      "imagem": "https://i.pinimg.com/236x/3d/e0/30/3de0306363b508fc1550894f025db1f8.jpg"
+    },
+    {
+      "id": "7",
+      "nome": "Rosquinha",
+      "preco": "5,99",
+      "imagem": "https://i.pinimg.com/236x/e2/df/01/e2df011fd44e5585fca6d79aebfcd910.jpg"
+    },
+    {
+      "id": "8",
+      "nome": "Mocha Coffe",
+      "preco": "7,99",
+      "imagem": "https://i.pinimg.com/564x/69/38/23/69382315c1abbb0f38e1c11ba8b05fc2.jpg"
+    },
+    {
+      "id": "9",
+      "nome": "Pão com Ovo",
+      "preco": "8,50",
+      "imagem": "https://i.pinimg.com/236x/d2/bc/31/d2bc31eca96eed907ff83965da9cc0f7.jpg"
+    },
+    {
+      "id": "baa2",
+      "nome": "Panqueca",
+      "preco": "10,00",
+      "imagem": "https://i.pinimg.com/236x/80/89/c2/8089c29f1e8f2e6ce6aba9baf296d775.jpg"
+    },
+    {
+      "id": "57ea",
+      "nome": "Sanduíche Natural",
+      "preco": "10,00",
+      "imagem": "https://i.pinimg.com/236x/83/f9/b2/83f9b22f4dabe750e8cdc366e0810a6c.jpg"
+    },
+    {
+      "id": "9d1a",
+      "nome": "Fatia de Pizza",
+      "preco": "9,00",
+      "imagem": "https://i.pinimg.com/236x/0b/fd/a0/0bfda0a0b329abf9aa3a6d5d08d58f63.jpg"
+    },
+    {
+      "id": "7dc7",
+      "nome": "Donuts Baunilha",
+      "preco": "10,00",
+      "imagem": "https://i.pinimg.com/236x/3a/9d/97/3a9d97d79cfef0140721ab7735f1975b.jpg"
+    }
+  ]
+}

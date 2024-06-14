@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- CSS -->
+        <link rel="stylesheet" href="./css/main.css">
+
+        <!-- Fontes -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
+        
+        <link rel="icon" type="image/svg" href="./assets/Coroa.svg">
+
+        <title>Alura Geek</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <header>
+            <div class="header__logo">
+                <img src="./assets/coffee.png" alt="3 corações em pixel art">
+                <h2>Alura Geek</h2>
+                <img src="./assets/coffee.png" alt="3 corações em pixel art">
+            </div>
+            <h4 class="header__warning">E-commerce fictício, você pode adicionar ou excluir produtos à Vontade!</h4>
+        </header>
+        <!-- Main -->
+        <main>
+            <!-- Seção de card dos produtos -->
+            <section class="product">
+                <h2 class="product__title">MEUS PRODUTOS:</h2>
+                <div class="product__box" alt="produtos" data-products>
+
+                </div>
+            </section>
+            <!-- Seção de formulário para adicionar produtos -->
+            <section class="addproduct">
+                <h2 class="addproduct__title">ADICIONAR PRODUTOS:</h2>
+                <form class="addproduct__form" action="" method="post" data-form>
+                    <input class="addproduct__input" type="text" name="name" placeholder="nome..." required data-form-name>
+                    <input class="addproduct__input" type="number" step="0.01" pattern="\d+(\.\d{2})?" name="price" placeholder="valor..." required data-form-price>
+                    <input class="addproduct__input" type="url" name="img" placeholder="url da imagem..." required data-form-image>
+                    <div class="addproduct__btn__box">
+                        <input class="addproduct__btn submit__btn" type="submit" value="Salvar" disabled>
+                        <input class="addproduct__btn clear__btn" type="button" value="Limpar" data-form-clear>
+                    </div>
+                </form>
+                <h5 class="message" id="messageError"></h5>
+            </section>
+        </main>
+        <!-- Footer -->
+        <footer>
+            <div class="footer__logo">
+                <img src="./assets/coffee.png" alt="3 corações em pixel art">
+                <h2>Alura Geek</h2>
+                <img src="./assets/coffee.png" alt="3 corações em pixel art">
+            </div>
+            <p class="footer__dev">DESENVOLVIDO POR JÚLIA ZACHARIN</p>
+            <p class="footer__alura">ALURA LATAM - 2024</p>
+        </footer>
+
+        <!-- Scripts -->
+        <script type="module" src="./js/showProducts.js"></script>
+        <script type="module" src="./js/createProduct.js"></script>
+        <script type="module" src="./js/clearForm.js"></script>
+        <script type="module" src="./js/deleteProduct.js"></script>
+        <script type="module" src="./js/validate.js"></script>
+    </body>
+</html>
